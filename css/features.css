@@ -34,6 +34,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
@@ -53,6 +54,10 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .features-desc {
+    font-weight: 400;
+  }
+
   .features-list {
     flex-wrap: nowrap;
     gap: 24px;

@@ -69,24 +69,29 @@
 .mobile-contacts-list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
   margin-bottom: 48px;
 }
 .mobile-contacts-phone {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   color: #4d5ae5;
 }
 .mobile-contacts-email {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
+}
+.mobile-contacts {
+  font-style: normal;
 }
 .mobile-social-list {
   display: flex;
-  gap: 56px;
+  gap: 40px;
 }
 .mobile-social-item {
   width: 40px;

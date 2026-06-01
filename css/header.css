@@ -8,7 +8,6 @@
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -21,7 +20,7 @@
   text-transform: uppercase;
   color: #2e2f42;
   display: flex;
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 .logo-accent {
@@ -31,6 +30,7 @@
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .nav-list {
@@ -139,6 +139,10 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    padding: 0;
+  }
+  .logo {
+    padding: 24px 0;
   }
 }
 

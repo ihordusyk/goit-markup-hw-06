@@ -28,8 +28,8 @@
   position: relative;
   border-radius: 4px;
   padding-block: 72px 24px;
-  padding-inline: 24px;
-  min-width: 408px;
+  padding-inline: 16px;
+  min-width: 288px;
   min-height: 584px;
   box-shadow:
     0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -234,4 +234,10 @@
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: #404bbf;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    padding-inline: 24px;
+  }
 }
